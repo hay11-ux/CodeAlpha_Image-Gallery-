@@ -25,7 +25,6 @@ HayGallery/
 ├── style.css
 ├── script.js
 └── Images/
-    ├── cole-palmer.jpg
     ├── profile.jpg
     ├── poundz.jpg
     ├── cutie.jpg
