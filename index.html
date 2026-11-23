@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Explore a beautiful collection of nature, architecture and people photography.">
+    <meta property="og:title" content="Hay Gallery | Explore Photography">
+    <meta property="og:description" content="A collection of beautiful moments, places and experiences.">
+    <meta property="og:type" content="website">
+
+    <title>Hay Gallery | Explore Photography</title>
+
+    <!-- Favicon (inline, no extra file needed) -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%239e2f45'/%3E%3Ctext x='50' y='68' font-size='60' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'%3EV%3C/text%3E%3C/svg%3E">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="#home" class="logo">
+                Hay<span>Gallery.</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <!-- HERO SECTION -->
+
+        <section class="hero" id="home">
+
+            <p class="hero-tag">CAPTURING MOMENTS</p>
+
+            <h1>
+                Explore the World<br>
+                Through <span>Our Lens.</span>
+            </h1>
+
+            <p class="hero-description">
+                A collection of beautiful moments, places and experiences.
+            </p>
+
+            <a href="#gallery" class="hero-button">
+                Explore Gallery
+            </a>
+
+        </section>
+
+
+        <!-- ================= GALLERY SECTION ================= -->
+
+        <section class="gallery-section" id="gallery">
+
+            <div class="section-heading">
+
+                <p>OUR COLLECTION</p>
+
+                <h2>Discover Beautiful Moments</h2>
+
+            </div>
+
+
+            <!-- CATEGORY FILTER BUTTONS -->
+
+            <div class="filter-buttons">
+
+                <button class="filter-btn active" data-filter="all" aria-pressed="true">
+                    All
+                </button>
+
+                <button class="filter-btn" data-filter="nature" aria-pressed="false">
+                    Nature
+                </button>
+
+                <button class="filter-btn" data-filter="architecture" aria-pressed="false">
+                    Architecture
+                </button>
+
+                <button class="filter-btn" data-filter="people" aria-pressed="false">
+                    People
+                </button>
+
+            </div>
+
+
+            <!-- IMAGE GALLERY GRID -->
+
+            <div class="gallery-grid" id="galleryGrid">
+
+
+                <!-- ================================= -->
+                <!-- NATURE CATEGORY - 5 IMAGES        -->
+                <!-- ================================= -->
+
+                <div class="gallery-item" data-category="nature">
+                    <img
+                        src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=800"
+                        data-full="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?w=1600"
+                        alt="Beautiful mountain landscape"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Mountain Escape</h3>
+                        <p>Nature</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="nature">
+                    <img
+                        src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800"
+                        data-full="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1600"
+                        alt="Green forest"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Forest Beauty</h3>
+                        <p>Nature</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="nature">
+                    <img
+                        src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800"
+                        data-full="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1600"
+                        alt="Sunrise over a beautiful landscape"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Golden Sunrise</h3>
+                        <p>Nature</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="nature">
+                    <img
+                        src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800"
+                        data-full="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=1600"
+                        alt="Beautiful natural landscape"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Natural Wonders</h3>
+                        <p>Nature</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="nature">
+                    <img
+                        src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800"
+                        data-full="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1600"
+                        alt="Mountain peaks"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Mountain Peaks</h3>
+                        <p>Nature</p>
+                    </div>
+                </div>
+
+
+                <!-- ================================= -->
+                <!-- ARCHITECTURE CATEGORY - 5 IMAGES  -->
+                <!-- ================================= -->
+
+                <div class="gallery-item" data-category="architecture">
+                    <img
+                        src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=800"
+                        data-full="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1600"
+                        alt="Modern architectural building"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Modern Design</h3>
+                        <p>Architecture</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="architecture">
+                    <img
+                        src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=800"
+                        data-full="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=1600"
+                        alt="Architectural structure"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Creative Architecture</h3>
+                        <p>Architecture</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="architecture">
+                    <img
+                        src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=800"
+                        data-full="https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=1600"
+                        alt="Contemporary city building"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Urban Spaces</h3>
+                        <p>Architecture</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="architecture">
+                    <img
+                        src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800"
+                        data-full="https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=1600"
+                        alt="Modern architectural interior"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Interior Design</h3>
+                        <p>Architecture</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="architecture">
+                    <img
+                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800"
+                        data-full="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1600"
+                        alt="Modern skyscraper"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>City Skyline</h3>
+                        <p>Architecture</p>
+                    </div>
+                </div>
+
+
+                <!-- ================================= -->
+                <!-- PEOPLE CATEGORY - 5 IMAGES        -->
+                <!-- Local files: forward slashes, no spaces. -->
+                <!-- Rename your files in the Images folder to match. -->
+                <!-- ================================= -->
+
+                <div class="gallery-item" data-category="people">
+                    <img
+                        src="Images/cole-palmer.jpg"
+                        alt="Cole Palmer"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Footballer</h3>
+                        <p>People</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="people">
+                    <img
+                        src="Images/profile.jpg"
+                        alt="Portrait of the site owner"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Learner</h3>
+                        <p>People</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="people">
+                    <img
+                        src="Images/poundz.jpg"
+                        alt="Young man"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Young Celebrity</h3>
+                        <p>People</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="people">
+                    <img
+                        src="Images/cutie.jpg"
+                        alt="Portrait of a woman"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Fashionista</h3>
+                        <p>People</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="people">
+                    <img
+                        src="Images/lumba.jpg"
+                        alt="Musician performing"
+                        loading="lazy"
+                    >
+                    <div class="image-overlay">
+                        <h3>Musician</h3>
+                        <p>People</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT SECTION ================= -->
+
+        <section class="about-section" id="about">
+
+            <div class="section-heading">
+                <p>ABOUT</p>
+                <h2>Behind the Gallery</h2>
+            </div>
+
+            <p class="about-text">
+                HayGallery is a small collection of photography across nature,
+                architecture and people. Use the filters above to browse a category,
+                and click any photo to view it full screen.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <p>
+            &copy; 2026 HayGallery. All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
